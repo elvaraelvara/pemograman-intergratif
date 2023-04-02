@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package crud;
+
+message UmatGereja {
+int32 id = 1;
+string nama = 2;
+string alamat = 3;
+string no_telepon = 4;
+string romo = 5;
+
+}
+
+service CrudService {
+rpc CreateUmatGereja(UmatGereja) returns (UmatGereja) {}
+rpc ReadUmatGereja(UmatGereja) returns (UmatGereja) {}
+rpc UpdateUmatGereja(UmatGereja) returns (UmatGereja) {}
+rpc DeleteUmatGereja(UmatGereja) returns (UmatGereja) {}
+}
