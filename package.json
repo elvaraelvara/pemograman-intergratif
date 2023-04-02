@@ -1,5 +1,5 @@
 {
-  "name": "grpc-nodejs",
+  "name": "pi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@grpc/grpc-js": "^1.8.13",
-    "google-protobuf": "^3.21.2",
-    "grpc": "^1.24.11"
+    "@grpc/proto-loader": "^0.7.6",
+    "firebase": "^9.19.1",
+    "grpc": "^1.24.11",
+    "grpc-tools": "^1.12.4",
+    "pg": "^8.10.0",
+    "protobufjs": "^7.2.3"
   }
 }
